@@ -108,6 +108,9 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
 	
 	
 	func configure(_ page: ImageScrollView, for index: Int) {
+		self.singleTap.require(toFail: page.zoomingTap)
+		page.backgroundColor = self.view.backgroundColor
+
 		page.index = index
 		page.frame = self.frameForPage(at: index)
 		page.display(self.image(at: index))
