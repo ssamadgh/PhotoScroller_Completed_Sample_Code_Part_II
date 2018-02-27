@@ -82,7 +82,6 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
 				self.pagingScrollView.addSubview(page)
 				self.visiblePages.insert(page)
 				
-				
 			}
 		}
 		

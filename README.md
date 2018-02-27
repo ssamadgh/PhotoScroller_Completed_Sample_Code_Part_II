@@ -1,6 +1,8 @@
 # Designing Apps with Scroll Views _ Part II
 ### Based on Apple WWDC 2010 Designing Apps with Scroll Views
 
+![Header Photo](Header_Photo/Part_II.png)
+
 This is the Completed sample code of Designing Apps with Scroll Views _ Part II tutorial.
 In this tutorial you learn how to scroll between photos in order to behave like the photos application.
 
